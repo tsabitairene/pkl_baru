@@ -51,7 +51,7 @@
 
                     <!-- Card Detail PKL -->
                     <div class="bg-white shadow-xl sm:rounded-lg p-6 max-w-xs flex flex-col h-full">
-                        <h2 class="font-semibold mb-3 text-pink-600 text-lg">Detail PKL</h2>
+                        <h2 class="font-semibold mb-3 text-blue-600 text-lg">Detail PKL</h2>
                         <div class="flex-grow overflow-auto text-sm">
                             @forelse ($pkls as $pkl)
                                 <div class="mb-4">
@@ -89,7 +89,7 @@
                     <!-- Card Tambah Data & Lapor PKL -->
                     <div class="bg-white shadow-xl sm:rounded-lg p-6 max-w-xs flex flex-col h-full">
                         <div>
-                            <h2 class="text-lg font-semibold mb-3 text-pink-600">Tambah Data & Lapor PKL</h2>
+                            <h2 class="text-lg font-semibold mb-3 text-blue-600">Tambah Data & Lapor PKL</h2>
                             <p class="mb-4 text-gray-600 text-sm">Tambah data industri dan laporan PKL kamu dengan mudah</p>
 
                             <button type="button"
