@@ -5,7 +5,7 @@
                 <!-- Heading -->
                 <div class="text-xl font-bold flex items-start">
                     Selamat datang&nbsp;
-                    <span class="text-pink-500">
+                    <span class="text-blue-500">
                         {{ Auth::user()->currentTeam->name ?? Auth::user()->name }}
                     </span>!
                 </div>
@@ -21,7 +21,7 @@
                                     width: 120px; 
                                     height: 160px; 
                                     object-fit: cover; 
-                                    border: 2px solid #db2777; /* pink-600 */
+                                    border: 2px solid rgb(70, 167, 223); /* pink-600 */
                                     box-shadow: 0 2px 5px rgba(219, 39, 119, 0.3); /* shadow tipis pink */
                                     border-radius: 0.375rem; /* sm:rounded-lg set supaya matching */
                                 " />
@@ -32,8 +32,8 @@
                                 width: 120px; 
                                 height: 160px; 
                                 object-fit: cover; 
-                                border: 2px solid #db2777; /* pink-600 */
-                                box-shadow: 0 2px 5px rgba(219, 39, 119, 0.3); /* shadow tipis pink */
+                                border: 2px solid #3b82f6; /* blue-500 */
+                                box-shadow: 0 2px 5px rgba(59, 130, 246, 0.3); /* blue shadow */
                                 border-radius: 0.375rem; /* sm:rounded-lg set supaya matching */
                             " />
                         @endif
