@@ -41,7 +41,7 @@
 
                     <!-- Card Informasi Siswa -->
                     <div class="bg-white shadow-xl sm:rounded-lg p-6 max-w-xs flex flex-col h-full">
-                        <h2 class="font-semibold mb-3 text-pink-600 text-lg">Informasi Siswa</h2>
+                        <h2 class="font-semibold mb-3 text-blue-600 text-lg">Informasi Siswa</h2>
                         <p class="text-sm mb-1"><strong>Nama :</strong> {{ $siswa->nama ?? '-' }}</p>
                         <p class="text-sm mb-1"><strong>NIS :</strong> {{ $siswa->nis ?? '-' }}</p>
                         <p class="text-sm mb-1"><strong>Gender :</strong> {{ $siswa->gender ?? '-' }}</p>
@@ -73,7 +73,7 @@
                                         <div class="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
                                             <div class="h-2 rounded-full"
                                                 style="width: {{ $persentase }}%;
-                                                        background: linear-gradient(90deg,rgb(209, 78, 144),rgb(241, 130, 186));
+                                                        background: linear-gradient(90deg, rgb(59, 130, 246), rgb(147, 197, 253)); /* dari blue-500 ke blue-300 */
                                                         animation: progressBarAnimation 2s ease forwards;">
                                             </div>
                                         </div>
